@@ -15,7 +15,7 @@ provider:
             - dynamodb: GetItem
             - dynamodb: scan
           Resource: 
-            - arn:aws:dynamodb:us-east-1:300442940498:table/ItemTableNew
+            - arn:aws:dynamodb:us-east-1:300442940498:
 
 functions:
   api:
